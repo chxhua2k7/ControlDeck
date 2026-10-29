@@ -3,7 +3,7 @@
 把控制中心的東西裝在同一個套件裡（`com.c3x14n.controldeck`），每個模組在設定頁各有開關。
 
 - 需要 Dopamine（rootless）、[CCSupport](https://github.com/opa334/CCSupport)、PreferenceLoader。
-- 取代 RebootCC、ConnectStrip（和更早的 ConnectivityStrip）、MetalHudLoader：安裝時 dpkg 會自動移除它們，舊的設定在第一次 respring 時搬過來。
+- 取代 [RebootCC](https://github.com/chxhua2k7/RebootCC)、ConnectStrip（和更早的 ConnectivityStrip）、[MetalHudLoader](https://github.com/chxhua2k7/MetalHudLoader)：安裝時 dpkg 會自動移除它們，舊的設定在第一次 respring 時搬過來。
 - 安裝後到「設定 → 控制中心」加入 RebootCC、Metal HUD；設定頁在「設定 → ControlDeck」。
 
 ## 模組
