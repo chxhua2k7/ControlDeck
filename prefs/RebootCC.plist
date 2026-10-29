@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>RebootCC</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tap Apply after turning this on or off.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootEnabled</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>RebootCC</string>
+			<key>iconSymbol</key>
+			<string>arrow.clockwise</string>
+			<key>iconColor</key>
+			<string>#FF3B30</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tap the module to run this action. Long-press it for the menu below.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootTapAction</string>
+			<key>default</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Tap action</string>
+			<key>iconSymbol</key>
+			<string>hand.point.up.left.fill</string>
+			<key>iconColor</key>
+			<string>#0A84FF</string>
+			<key>validTitles</key>
+			<array>
+				<string>Restart SpringBoard</string>
+				<string>Rebuild Icon Cache</string>
+				<string>Userspace Reboot</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>respring</string>
+				<string>uicache</string>
+				<string>userspace</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Menu</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootShowRespring</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Restart SpringBoard</string>
+			<key>iconSymbol</key>
+			<string>arrow.clockwise</string>
+			<key>iconColor</key>
+			<string>#FF3B30</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootShowUicache</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Rebuild Icon Cache</string>
+			<key>iconSymbol</key>
+			<string>square.grid.2x2</string>
+			<key>iconColor</key>
+			<string>#34C759</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootShowUserspace</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Userspace Reboot</string>
+			<key>iconSymbol</key>
+			<string>arrow.triangle.2.circlepath</string>
+			<key>iconColor</key>
+			<string>#AF52DE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootShowSafemode</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Safe Mode</string>
+			<key>iconSymbol</key>
+			<string>checkmark.shield</string>
+			<key>iconColor</key>
+			<string>#30B0C7</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootShowReboot</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Reboot</string>
+			<key>iconSymbol</key>
+			<string>power</string>
+			<key>iconColor</key>
+			<string>#8E8E93</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>With this on, Userspace Reboot and Safe Mode run on the second tap. Reboot always needs two taps.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootConfirm</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Tap twice to confirm</string>
+			<key>iconSymbol</key>
+			<string>hand.tap</string>
+			<key>iconColor</key>
+			<string>#FF9500</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>While the device is locked, Face ID or the passcode is asked for first.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>rebootRequireUnlock</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Require unlock when locked</string>
+			<key>iconSymbol</key>
+			<string>lock.fill</string>
+			<key>iconColor</key>
+			<string>#5856D6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

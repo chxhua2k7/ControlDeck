@@ -1,0 +1,6 @@
+#!/bin/sh
+# ControlDeckHelper 要以 root 身分執行(userspace reboot、寫 basebin/.safe_mode),
+# 不依賴 .deb 裡記錄的擁有者,安裝後直接設定。
+chown root:wheel /var/jb/usr/libexec/ControlDeckHelper
+chmod 4755 /var/jb/usr/libexec/ControlDeckHelper
+exit 0

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- launchd 的 reboot3:userspace reboot 和 Dopamine 的 jbctl 相同,完整重開和 Procursus 的 launchctl 相同 -->
+	<key>platform-application</key>
+	<true/>
+	<key>com.apple.private.xpc.launchd.userspace-reboot</key>
+	<true/>
+	<key>com.apple.private.xpc.launchd.reboot</key>
+	<true/>
+</dict>
+</plist>

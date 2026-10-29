@@ -1,0 +1,16 @@
+/* ControlDeck 的控制中心模組。Key 是 CDProvider.m、RBCActions.m、MHLModule.m 裡的英文字串。 */
+
+/* 「設定 → 控制中心」清單上的名字 */
+"RebootCC" = "RebootCC";
+"Metal HUD" = "Metal HUD";
+
+/* RebootCC */
+"Respring" = "重新启动 SpringBoard";
+"Rebuild Icon Cache" = "重建图标缓存";
+"Userspace Reboot" = "Userspace Reboot";
+"Safe Mode" = "安全模式";
+"Reboot" = "重新启动设备";
+"Tap again to confirm" = "再点一次以确认";
+
+/* Metal HUD */
+"Default (all)" = "默认（全部）";

@@ -1,0 +1,42 @@
+/* ControlDeck settings page. Keys are the English strings in the prefs/*.plist pages and CDRootListController.m. */
+
+"ControlDeck" = "ControlDeck";
+"Modules" = "Modules";
+"Turned-off modules leave Control Center and don’t load." = "Turned-off modules leave Control Center and don’t load.";
+"On" = "On";
+"Off" = "Off";
+"About" = "About";
+"Version" = "Version";
+"© 2026 chxhua2k7. Licensed under GPL-3.0. Metal HUD is based on MetalHudLoader by Jinwoo Kim." = "© 2026 chxhua2k7. Licensed under GPL-3.0. Metal HUD is based on MetalHudLoader by Jinwoo Kim.";
+"Apply" = "Apply";
+"Restart SpringBoard to apply?" = "Restart SpringBoard to apply?";
+"Cancel" = "Cancel";
+"Respring" = "Respring";
+"Tap Apply after turning this on or off." = "Tap Apply after turning this on or off.";
+
+/* RebootCC */
+"RebootCC" = "RebootCC";
+"Tap the module to run this action. Long-press it for the menu below." = "Tap the module to run this action. Long-press it for the menu below.";
+"Tap action" = "Tap action";
+"Menu" = "Menu";
+"Restart SpringBoard" = "Restart SpringBoard";
+"Rebuild Icon Cache" = "Rebuild Icon Cache";
+"Userspace Reboot" = "Userspace Reboot";
+"Safe Mode" = "Safe Mode";
+"Reboot" = "Reboot";
+"With this on, Userspace Reboot and Safe Mode run on the second tap. Reboot always needs two taps." = "With this on, Userspace Reboot and Safe Mode run on the second tap. Reboot always needs two taps.";
+"Tap twice to confirm" = "Tap twice to confirm";
+"While the device is locked, Face ID or the passcode is asked for first." = "While the device is locked, Face ID or the passcode is asked for first.";
+"Require unlock when locked" = "Require unlock when locked";
+
+/* Metal HUD */
+"Metal HUD" = "Metal HUD";
+"Tap the module to show the HUD in apps opened afterwards; long-press it to pick what it shows. Tap Apply after turning this on or off." = "Tap the module to show the HUD in apps opened afterwards; long-press it to pick what it shows. Tap Apply after turning this on or off.";
+
+/* ConnectStrip */
+"ConnectStrip" = "ConnectStrip";
+"Resizes Control Center’s Connectivity module. Tap Apply after changing these." = "Resizes Control Center’s Connectivity module. Tap Apply after changing these.";
+"Portrait 1×4" = "Portrait 1×4";
+"Landscape 3×2" = "Landscape 3×2";
+"In portrait, buttons that don’t fit loop around as you swipe." = "In portrait, buttons that don’t fit loop around as you swipe.";
+"Infinite scrolling" = "Infinite scrolling";

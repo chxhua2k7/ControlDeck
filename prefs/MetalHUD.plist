@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Metal HUD</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tap the module to show the HUD in apps opened afterwards; long-press it to pick what it shows. Tap Apply after turning this on or off.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>metalhudEnabled</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Metal HUD</string>
+			<key>iconSymbol</key>
+			<string>gauge</string>
+			<key>iconColor</key>
+			<string>#34C759</string>
+		</dict>
+	</array>
+</dict>
+</plist>

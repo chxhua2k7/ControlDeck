@@ -1,0 +1,42 @@
+/* ControlDeck settings page. Keys are the English strings in the prefs/*.plist pages and CDRootListController.m. */
+
+"ControlDeck" = "ControlDeck";
+"Modules" = "モジュール";
+"Turned-off modules leave Control Center and don’t load." = "オフにしたモジュールはコントロールセンターから消え、読み込まれません。";
+"On" = "オン";
+"Off" = "オフ";
+"About" = "情報";
+"Version" = "バージョン";
+"© 2026 chxhua2k7. Licensed under GPL-3.0. Metal HUD is based on MetalHudLoader by Jinwoo Kim." = "© 2026 chxhua2k7。GPL-3.0 ライセンス。Metal HUD は Jinwoo Kim の MetalHudLoader をもとにしています。";
+"Apply" = "適用";
+"Restart SpringBoard to apply?" = "SpringBoard を再起動して適用しますか？";
+"Cancel" = "キャンセル";
+"Respring" = "再起動";
+"Tap Apply after turning this on or off." = "オン／オフを切り替えたら「適用」をタップしてください。";
+
+/* RebootCC */
+"RebootCC" = "RebootCC";
+"Tap the module to run this action. Long-press it for the menu below." = "モジュールをタップするとこの操作を実行、長押しで下のメニューを表示します。";
+"Tap action" = "タップ時の操作";
+"Menu" = "長押しメニュー";
+"Restart SpringBoard" = "SpringBoard を再起動";
+"Rebuild Icon Cache" = "アイコンキャッシュを再構築";
+"Userspace Reboot" = "Userspace Reboot";
+"Safe Mode" = "セーフモード";
+"Reboot" = "デバイスを再起動";
+"With this on, Userspace Reboot and Safe Mode run on the second tap. Reboot always needs two taps." = "オンにすると、Userspace Reboot とセーフモードは2回目のタップで実行されます。デバイスの再起動は常に2回タップが必要です。";
+"Tap twice to confirm" = "2回タップで実行";
+"While the device is locked, Face ID or the passcode is asked for first." = "デバイスのロック中は、先に Face ID またはパスコードを求めます。";
+"Require unlock when locked" = "ロック中はロック解除が必要";
+
+/* Metal HUD */
+"Metal HUD" = "Metal HUD";
+"Tap the module to show the HUD in apps opened afterwards; long-press it to pick what it shows. Tap Apply after turning this on or off." = "モジュールをタップすると、そのあと開く App に HUD が表示されます。長押しで表示する項目を選べます。オン／オフを切り替えたら「適用」をタップしてください。";
+
+/* ConnectStrip */
+"ConnectStrip" = "ConnectStrip";
+"Resizes Control Center’s Connectivity module. Tap Apply after changing these." = "コントロールセンターの接続モジュールのサイズを変更します。変更したら「適用」をタップしてください。";
+"Portrait 1×4" = "縦向き 1×4";
+"Landscape 3×2" = "横向き 3×2";
+"In portrait, buttons that don’t fit loop around as you swipe." = "縦向きで収まらないボタンは、左右にスワイプするとループします。";
+"Infinite scrolling" = "無限スクロール";

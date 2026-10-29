@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>ConnectStrip</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Resizes Control Center’s Connectivity module. Tap Apply after changing these.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>connectEnabled</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>ConnectStrip</string>
+			<key>iconSymbol</key>
+			<string>antenna.radiowaves.left.and.right</string>
+			<key>iconColor</key>
+			<string>#0A84FF</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>connectPortrait</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Portrait 1×4</string>
+			<key>iconSymbol</key>
+			<string>rectangle.split.3x1.fill</string>
+			<key>iconColor</key>
+			<string>#0A84FF</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>connectLandscape</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Landscape 3×2</string>
+			<key>iconSymbol</key>
+			<string>square.grid.3x2.fill</string>
+			<key>iconColor</key>
+			<string>#30B0C7</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>In portrait, buttons that don’t fit loop around as you swipe.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.c3x14n.controldeck</string>
+			<key>key</key>
+			<string>connectLoop</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Infinite scrolling</string>
+			<key>iconSymbol</key>
+			<string>infinity</string>
+			<key>iconColor</key>
+			<string>#34C759</string>
+			<key>PostNotification</key>
+			<string>com.c3x14n.controldeck/connectstrip</string>
+		</dict>
+	</array>
+</dict>
+</plist>

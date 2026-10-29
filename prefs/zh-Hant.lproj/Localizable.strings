@@ -1,0 +1,42 @@
+/* ControlDeck settings page. Keys are the English strings in the prefs/*.plist pages and CDRootListController.m. */
+
+"ControlDeck" = "ControlDeck";
+"Modules" = "模組";
+"Turned-off modules leave Control Center and don’t load." = "關掉的模組會從控制中心移除，也不會載入。";
+"On" = "開啟";
+"Off" = "關閉";
+"About" = "關於";
+"Version" = "版本";
+"© 2026 chxhua2k7. Licensed under GPL-3.0. Metal HUD is based on MetalHudLoader by Jinwoo Kim." = "© 2026 chxhua2k7。以 GPL-3.0 授權。Metal HUD 改自 Jinwoo Kim 的 MetalHudLoader。";
+"Apply" = "套用";
+"Restart SpringBoard to apply?" = "要重啟 SpringBoard 套用嗎？";
+"Cancel" = "取消";
+"Respring" = "重啟";
+"Tap Apply after turning this on or off." = "開關之後要按「套用」。";
+
+/* RebootCC */
+"RebootCC" = "RebootCC";
+"Tap the module to run this action. Long-press it for the menu below." = "點一下模組會執行這個動作，長按則展開下面的選單。";
+"Tap action" = "點一下時";
+"Menu" = "長按選單";
+"Restart SpringBoard" = "重新啟動 SpringBoard";
+"Rebuild Icon Cache" = "重建圖示快取";
+"Userspace Reboot" = "Userspace Reboot";
+"Safe Mode" = "安全模式";
+"Reboot" = "重新開機";
+"With this on, Userspace Reboot and Safe Mode run on the second tap. Reboot always needs two taps." = "開啟後，Userspace Reboot 和安全模式要點第二次才執行。重新開機一律要點兩次。";
+"Tap twice to confirm" = "點兩次才執行";
+"While the device is locked, Face ID or the passcode is asked for first." = "裝置鎖定時，會先要求 Face ID 或密碼。";
+"Require unlock when locked" = "鎖定時需先解鎖";
+
+/* Metal HUD */
+"Metal HUD" = "Metal HUD";
+"Tap the module to show the HUD in apps opened afterwards; long-press it to pick what it shows. Tap Apply after turning this on or off." = "點一下模組，之後打開的 App 會顯示 HUD；長按可選要顯示的項目。開關之後要按「套用」。";
+
+/* ConnectStrip */
+"ConnectStrip" = "ConnectStrip";
+"Resizes Control Center’s Connectivity module. Tap Apply after changing these." = "調整控制中心「連線」模組的大小。改了要按「套用」。";
+"Portrait 1×4" = "直向 1×4";
+"Landscape 3×2" = "橫向 3×2";
+"In portrait, buttons that don’t fit loop around as you swipe." = "直向放不下的按鈕，左右滑動時會循環出現。";
+"Infinite scrolling" = "無限循環滑動";

@@ -1,0 +1,13 @@
+Package: com.c3x14n.controldeck
+Name: ControlDeck
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Control Center modules in one package: RebootCC, Metal HUD and ConnectStrip.
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3), preferenceloader (>= 2.2.6)
+Conflicts: com.c3x14n.rebootcc, com.c3x14n.connectstrip, com.xianghuachen.connectivitystrip, com.pookjw.metalhudloader
+Replaces: com.c3x14n.rebootcc, com.c3x14n.connectstrip, com.xianghuachen.connectivitystrip, com.pookjw.metalhudloader
+Maintainer: chxhua2k7 <xianghuachen2007@icloud.com>
+Author: chxhua2k7 <xianghuachen2007@icloud.com>
+Section: Tweaks
+License: GPL-3.0
+Icon: file:///var/jb/Library/PreferenceBundles/ControlDeckPrefs.bundle/ControlDeck@3x.png
